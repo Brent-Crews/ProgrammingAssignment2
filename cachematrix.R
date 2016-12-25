@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## and will create a comment, which
 ## will serve as a demarkation
 ## to know that that branch of code
-## was reached
+## was properly reached
 cacheSolve <- function(x, ...) {
   invrs <- x$getInverse()
   if (!is.null(invrs)) {
