@@ -2,7 +2,7 @@
 ## create a matrix that is fully 
 ## capable of caching its own inverse
 ## this function will run in conjunction 
-## with the cacheSolve Matrix afterwards
+## with the cacheSolve Matrix afterwards!
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
